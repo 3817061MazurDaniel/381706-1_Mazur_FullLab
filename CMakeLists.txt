@@ -4,7 +4,7 @@ set(PROJECT_NAME 381706-1_Mazur_FullLab) #Создаем обычную лока
 project(${PROJECT_NAME}) # Название проекта
 
 set(MyLib ElevatorLib) #Переменная с именем библиотеки
-add_subdirectory(ElevatorLib) #Собираем проект в поддиректории ElevatorLib
+#add_subdirectory(ElevatorLib) #Собираем проект в поддиректории ElevatorLib
 
 set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "Configs" FORCE) #Создается переменная CMAKE_CONFIGURATION_TYPES со значением "Debug;Release" и меткой/разделом Configs, переменная сохраниется в специальном файле доступном из всех файлов,
 if(NOT CMAKE_BUILD_TYPE) # проверка имеющихся у компилятора вариантов сборки
@@ -18,4 +18,4 @@ file(GLOB srcs "*.cpp") #Добавляем в переменную srcs все 
 add_executable(${PROJECT_NAME} ${srcs} ${hdrs}) #Создаем проект с именем из переменной ${PROJECT_NAME}, в него добавляются файлы из переменных ${srcs} и ${hdrs}
 
 
-target_link_libraries(${PROJECT_NAME} ${MyLib}) #Подключаем к проекту с именем ${PROJECT_NAME} библиотеку с именем ${MyLib1}
+#target_link_libraries(${PROJECT_NAME} ${MyLib}) #Подключаем к проекту с именем ${PROJECT_NAME} библиотеку с именем ${MyLib1}

@@ -3,7 +3,7 @@
 set(PROJECT_NAME 381706-1_Mazur_FullLab) #Создаем обычную локальную переменную с именем проекта
 project(${PROJECT_NAME}) # Название проекта
 
-set(MyLib ElevatorLib) #Переменная с именем библиотеки
+set(MyLib MyLib) #Переменная с именем библиотеки
 #add_subdirectory(ElevatorLib) #Собираем проект в поддиректории ElevatorLib
 
 set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "Configs" FORCE) #Создается переменная CMAKE_CONFIGURATION_TYPES со значением "Debug;Release" и меткой/разделом Configs, переменная сохраниется в специальном файле доступном из всех файлов,

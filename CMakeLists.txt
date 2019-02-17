@@ -1,6 +1,6 @@
 ﻿cmake_minimum_required(VERSION 2.8)
 
-set(PROJECT_NAME All_Labs) 
+set(PROJECT_NAME 381706-1_Mazur_FullLab) 
 project(${PROJECT_NAME}) 
 
 set(ExceptionLib ExceptionLib)

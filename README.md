@@ -1,3 +1,3 @@
-# 381706-1_Mazur_FullLab
+# 381706_Maximova_All_Lab
 
-[![Build Status](https://travis-ci.org/3817061MazurDaniel/381706-1_Mazur_FullLab.svg?branch=master)](https://travis-ci.org/3817061MazurDaniel/381706-1_Mazur_FullLab)
+[![Build Status](https://travis-ci.org/IrinaMaximova-381706/381706_Maximova_All_Lab.svg?branch=tut)](https://travis-ci.org/IrinaMaximova-381706/381706_Maximova_All_Lab)
